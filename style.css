@@ -2,10 +2,73 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Gilroy-Light;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(font/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: "MonumentExtended-Regular";
+  src: url(font/MonumentExtended-Regular.otf);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  padding-top: 0.1px; /* Fix for sticky header css bug */
+}
+
+nav {
+  height: 12vh;
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 35px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  /* background-color: rebeccapurple; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: MonumentExtended-Regular;
+  font-size: 35px;
+  letter-spacing: -2.5px;
+}
+
+nav h2 {
+  /* background-color: blue; */
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid black;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+nav h2:nth-last-child(1) {
+  width: 8%;
+}
+
+nav h2:nth-last-child(2) {
+  width: 29%;
 }
