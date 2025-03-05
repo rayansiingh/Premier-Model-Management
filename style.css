@@ -27,7 +27,12 @@ main {
   background-color: #f8f8f8;
   position: relative;
   padding-top: 0.1px; /* Fix for sticky header css bug */
+  
 }
+/* to hide scrollbar */
+/* body::-webkit-scrollbar {
+  display: none;
+} */
 
 nav {
   height: 12vh;
@@ -67,8 +72,82 @@ nav h2 {
 
 nav h2:nth-last-child(1) {
   width: 8%;
+  border: none;
 }
 
 nav h2:nth-last-child(2) {
   width: 29%;
+}
+
+#centre {
+  height: 85%;
+  width: 100%;
+  /* background-color: rebeccapurple; */
+  padding: 3vw;
+  position: relative;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  position: relative;
+}
+
+#content video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#overlay {
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  /* background-color: red; */
+  padding: 1vw 4.5vw;
+  color: white;
+}
+
+#overlay1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+#overlay1 h1 {
+  font-family: MonumentExtended-Regular;
+  font-size: 3vw;
+  mix-blend-mode: exclusion; /* crazy effect on text */
+}
+
+#overlay1 h2 {
+  font-size: 1.4vw;
+  font-weight: 500;
+  padding: 2vw 2.2vw;
+  border-radius: 50%;
+  /* background-color: aqua; */
+  border: 2px solid white;
+  /* add bottom right part of border more boldness */
+}
+
+#overlay2 {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  border-top: 2px solid white;
+  /* background-color: blue; */
+}
+
+#overlay2 h4 {
+  margin-top: 1vw;
+  font-size: 1.2vw;
+  font-weight: 600;
+}
+
+#overlay2 img {
+  height: 5vw;
+  /* background-color: pink; */
 }
