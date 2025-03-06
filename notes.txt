@@ -1,0 +1,1 @@
+1. mix-blend-mode: exclusion; - changes the color of element on the basis of background.
