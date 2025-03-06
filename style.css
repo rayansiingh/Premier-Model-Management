@@ -160,6 +160,16 @@ nav h2:nth-last-child(2) {
   background-color: blue;
 }
 
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
 #scroll img {
+  height: 60%;
+  width: 13%;
+  border-radius: 50%;
+  object-fit: cover;
   display: none;
 }
