@@ -9,6 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  background-color: #f8f8f8;
 }
 
 @font-face {
@@ -24,10 +25,10 @@ body {
 main {
   height: 100%;
   width: 100%;
-  background-color: #f8f8f8;
   position: relative;
   padding-top: 0.1px; /* Fix for sticky header css bug */
 }
+
 /* to hide scrollbar */
 /* body::-webkit-scrollbar {
   display: none;
@@ -89,7 +90,7 @@ nav h2:nth-last-child(2) {
 #content {
   height: 100%;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   position: relative;
 }
 
@@ -151,4 +152,14 @@ nav h2:nth-last-child(2) {
   margin-top: 1vw;
   /* color: white; */
   /* background-color: pink; */
+}
+
+#scroll {
+  height: 40vh;
+  width: 100%;
+  background-color: blue;
+}
+
+#scroll img {
+  display: none;
 }
