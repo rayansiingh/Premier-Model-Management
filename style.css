@@ -188,3 +188,37 @@ nav h2:nth-last-child(2) {
     transform: translateX(-100%);
   }
 }
+
+#alphabets {
+  height: 10vh;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+}
+
+#alphabets h5 {
+  font-size: 1.6vw;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.3vw;
+  border-bottom: 2px solid black;
+}
+
+#alphabets h6 {
+  font-size: 1vw;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.3vw;
+  padding: 0.55vw; /* Adjust padding to make it a perfect circle */
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.6vw; /* Explicitly set width */
+  height: 2.6vw; /* Explicitly set height */
+}
