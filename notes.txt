@@ -1,1 +1,7 @@
 1. mix-blend-mode: exclusion; - changes the color of element on the basis of background.
+
+2. marquee effect
+
+3. white-space: nowrap;
+
+4.
