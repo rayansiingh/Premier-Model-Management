@@ -155,21 +155,36 @@ nav h2:nth-last-child(2) {
 }
 
 #scroll {
-  height: 40vh;
+  height: 30vh;
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #container {
   height: 100%;
-  width: 100%;
-  background-color: blue;
+  width: 105%;
+  /* background-color: blue; */
+  display: inline-block;
+  animation: marquee 30s linear infinite;
 }
 
 #scroll img {
-  height: 60%;
+  margin: 0vw 1.8vw;
+  height: 80%;
   width: 13%;
   border-radius: 50%;
   object-fit: cover;
-  display: none;
+  /* display: none; */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
