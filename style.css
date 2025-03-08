@@ -192,33 +192,33 @@ nav h2:nth-last-child(2) {
 #alphabets {
   height: 10vh;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1vw;
+  gap: 0.8vw;
 }
 
 #alphabets h5 {
-  font-size: 1.6vw;
-  font-weight: 600;
+  font-size: 1.5vw;
   font-style: italic;
-  letter-spacing: 0.3vw;
-  border-bottom: 2px solid black;
+  border-bottom: 2.3px solid black;
+  letter-spacing: 0.5vw;
+  margin-right: 2vw;
 }
 
 #alphabets h6 {
-  font-size: 1vw;
-  font-weight: 600;
+  font-size: 1.2vw;
   font-style: italic;
-  letter-spacing: 0.3vw;
-  padding: 0.55vw; /* Adjust padding to make it a perfect circle */
-  background-color: yellow;
-  border: 1px solid black;
+  font-weight: 600;
+  /* background-color: yellow; */
+  padding: 0.5vw 0.8vw;
   border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 2.6vw; /* Explicitly set width */
-  height: 2.6vw; /* Explicitly set height */
+  text-align: start;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+#alphabets h6:hover {
+  border: 1px solid black;
 }
