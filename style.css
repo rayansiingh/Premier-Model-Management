@@ -315,7 +315,6 @@ section #right-part #bottom-part h5 {
   }
 }
 
-
 #vogue-shot #part2 {
   /* background-color: blue; */
   grid-row: 3 / 4;
@@ -328,7 +327,7 @@ section #right-part #bottom-part h5 {
 #vogue-shot #part2 h2 {
   font-family: "Lato", sans-serif;
   /* justify-self: end; */
-  align-self:self-end;
+  align-self: self-end;
 }
 
 #vogue-shot #part3 {
@@ -338,8 +337,26 @@ section #right-part #bottom-part h5 {
   background-size: cover;
 }
 
+#below-vogue-shot {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#below-vogue-shot #model-image {
+  height: 100%;
+  width: 90%;
+  background: url("https://images.pexels.com/photos/31005676/pexels-photo-31005676/free-photo-of-elegant-woman-posing-by-outdoor-fountain.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+
 #test {
   height: 100vh;
-  width: 100%;
-  /* background-color: yellow; */
+  width: 100vw;
+  background-color: red;
 }
