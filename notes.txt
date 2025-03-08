@@ -4,4 +4,4 @@
 
 3. white-space: nowrap;
 
-4.
+4. transition
