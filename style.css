@@ -253,14 +253,14 @@ section #right-part {
 }
 
 section #right-part #top-part {
-  height: 70%;
+  height: 77%;
   background: url("https://images.pexels.com/photos/26755415/pexels-photo-26755415/free-photo-of-man-in-suit.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: cover;
   background-position: center;
 }
 
 section #right-part #bottom-part {
-  height: 30%;
+  height: 23%;
   /* background-color: red; */
   display: flex;
   justify-content: space-between;
@@ -275,7 +275,70 @@ section #right-part #bottom-part h5 {
   font-weight: 600;
 }
 
-#vogue-shot-part {
+#vogue-shot-text {
+  font-family: MonumentExtended-Regular;
+  margin-left: 6vw;
+  margin-bottom: 5vh;
+}
+
+#vogue-shot {
+  height: 90vh;
+  width: 100%;
+  /* background-color: yellow; */
+  padding: 0vw 5.5vw;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+#vogue-shot #part1 {
+  /* background-color: red; */
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+  /* padding: 5vw; */
+  justify-self: center;
+  align-self: center;
+  position: relative;
+}
+
+#vogue-shot #part1 img {
+  height: 20vw;
+  animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+#vogue-shot #part2 {
+  /* background-color: blue; */
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+}
+
+#vogue-shot #part2 h2 {
+  font-family: "Lato", sans-serif;
+  /* justify-self: end; */
+  align-self:self-end;
+}
+
+#vogue-shot #part3 {
+  grid-row: 1 / 4;
+  background: url("https://images.pexels.com/photos/31042958/pexels-photo-31042958/free-photo-of-fashionable-woman-posing-in-stylish-ensemble.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-size: cover;
+}
+
+#test {
   height: 100vh;
   width: 100%;
   /* background-color: yellow; */
