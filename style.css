@@ -47,7 +47,6 @@ nav {
 }
 
 nav h1 {
-  /* background-color: rebeccapurple; */
   height: 100%;
   width: 20%;
   display: flex;
@@ -59,7 +58,6 @@ nav h1 {
 }
 
 nav h2 {
-  /* background-color: blue; */
   height: 100%;
   width: 20%;
   display: flex;
@@ -82,7 +80,6 @@ nav h2:nth-last-child(2) {
 #centre {
   height: 85%;
   width: 100%;
-  /* background-color: rebeccapurple; */
   padding: 3vw;
   position: relative;
 }
@@ -90,7 +87,6 @@ nav h2:nth-last-child(2) {
 #content {
   height: 100%;
   width: 100%;
-  /* background-color: blue; */
   position: relative;
 }
 
@@ -105,7 +101,6 @@ nav h2:nth-last-child(2) {
   width: 100%;
   position: absolute;
   bottom: 0;
-  /* background-color: red; */
   padding: 1vw 4.5vw;
   color: white;
 }
@@ -136,9 +131,7 @@ nav h2:nth-last-child(2) {
 #overlay2 {
   display: flex;
   justify-content: space-between;
-  /* align-items: end; */
   border-top: 2px solid white;
-  /* background-color: blue; */
 }
 
 #overlay2 h4 {
@@ -150,14 +143,11 @@ nav h2:nth-last-child(2) {
 #overlay2 img {
   height: 2vw;
   margin-top: 1vw;
-  /* color: white; */
-  /* background-color: pink; */
 }
 
 #scroll {
   height: 30vh;
   width: 100%;
-  /* background-color: blue; */
   white-space: nowrap;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -166,7 +156,6 @@ nav h2:nth-last-child(2) {
 #container {
   height: 100%;
   width: 105%;
-  /* background-color: blue; */
   display: inline-block;
   animation: marquee 30s linear infinite;
 }
@@ -177,7 +166,6 @@ nav h2:nth-last-child(2) {
   width: 13%;
   border-radius: 50%;
   object-fit: cover;
-  /* display: none; */
 }
 
 @keyframes marquee {
@@ -192,7 +180,6 @@ nav h2:nth-last-child(2) {
 #alphabets {
   height: 11vh;
   width: 100%;
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,7 +201,6 @@ nav h2:nth-last-child(2) {
   font-size: 1.2vw;
   font-style: italic;
   font-weight: 600;
-  /* background-color: yellow; */
   padding: 0.5vw 0.8vw;
   border-radius: 50%;
   text-align: start;
@@ -230,7 +216,6 @@ nav h2:nth-last-child(2) {
 section {
   height: 100vh;
   width: 100%;
-  /* background-color: rebeccapurple; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +234,6 @@ section #left-part {
 section #right-part {
   height: 90%;
   width: 37%;
-  /* background-color: blue; */
 }
 
 section #right-part #top-part {
@@ -261,7 +245,6 @@ section #right-part #top-part {
 
 section #right-part #bottom-part {
   height: 23%;
-  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -270,7 +253,6 @@ section #right-part #bottom-part {
 }
 
 section #right-part #bottom-part h5 {
-  /* background-color: blue; */
   font-size: 1.2vw;
   font-weight: 600;
 }
@@ -284,7 +266,6 @@ section #right-part #bottom-part h5 {
 #vogue-shot {
   height: 90vh;
   width: 100%;
-  /* background-color: yellow; */
   padding: 0vw 5.5vw;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -292,10 +273,8 @@ section #right-part #bottom-part h5 {
 }
 
 #vogue-shot #part1 {
-  /* background-color: red; */
   grid-row: 1 / 3;
   grid-column: 1 / 2;
-  /* padding: 5vw; */
   justify-self: center;
   align-self: center;
   position: relative;
@@ -316,7 +295,6 @@ section #right-part #bottom-part h5 {
 }
 
 #vogue-shot #part2 {
-  /* background-color: blue; */
   grid-row: 3 / 4;
   grid-column: 1 / 2;
   display: grid;
@@ -326,7 +304,6 @@ section #right-part #bottom-part h5 {
 
 #vogue-shot #part2 h2 {
   font-family: "Lato", sans-serif;
-  /* justify-self: end; */
   align-self: self-end;
 }
 
