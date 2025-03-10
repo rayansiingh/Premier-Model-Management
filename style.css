@@ -433,8 +433,140 @@ h5 {
   margin-top: 2vh;
 }
 
+#updates-part2 {
+  height: 100%;
+  width: 100%;
+  padding: 5vh 5vw;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#updates-part2-model {
+  height: 100%;
+  width: 48%;
+  background: url("https://images.pexels.com/photos/13301027/pexels-photo-13301027.jpeg");
+  background-size: cover;
+  background-position: 0% 80%;
+}
+
+#updates-part2-movie-shot {
+  height: 100%;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#updates-part2-movie-shot > h1 {
+  margin-top: 1vh;
+  font-family: MonumentExtended-Regular;
+}
+
+#updates-part2-movie-shot > h3 {
+  font-size: 1.5vw;
+  font-family: Lato;
+  font-weight: 600;
+}
+
+#updates-part2-movie-shot > h5 {
+  font-size: 1vw;
+  font-family: Lato;
+}
+
+#updates-part2-movie-shot > #images {
+  height: 50%;
+  display: grid;
+  grid-template-columns: 58% 38%;
+  grid-template-rows: 100%;
+  column-gap: 4%;
+}
+
+#updates-part2-movie-shot > #images > #model1 {
+  background: url("https://images.pexels.com/photos/7035514/pexels-photo-7035514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: top;
+}
+
+#updates-part2-movie-shot > #images > #model2 {
+  background: url("https://images.pexels.com/photos/30695036/pexels-photo-30695036/free-photo-of-stunning-portrait-with-freckles-and-red-lips.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: top;
+}
+
+#updates-part3 {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#updates-part3 > #model-portrait {
+  height: 100%;
+  width: 90%;
+  background: url("https://images.pexels.com/photos/4275726/pexels-photo-4275726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: top;
+}
+
+#updates-part4 {
+  margin-top: 10vh;
+  margin-bottom: 7vh;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 5vw; */
+  padding: 0 5%;
+}
+
+#updates-part4 > #left-part {
+  height: 100%;
+  width: 55%;
+  background: url("https://images.pexels.com/photos/30561093/pexels-photo-30561093/free-photo-of-woman-in-goth-fashion-between-buses-at-night.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+
+#updates-part4 > #right-part {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#updates-part4 > #right-part > #image-part {
+  height: 70%;
+  background:url("https://images.pexels.com/photos/31064221/pexels-photo-31064221/free-photo-of-vintage-style-portrait-with-urban-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-position: center;
+}
+
+#updates-part4 > #right-part > #text-part {
+  height: 30%;
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+#updates-part4 > #right-part > #text-part > h2 {
+  font-size: 1.75vw;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+#updates-part4 > #right-part > #text-part > h5 {
+  font-size: 1.2vw;
+}
+
 #test {
   height: 100vh;
   width: 100vw;
-  background-color: red;
+  background-color: yellow;
 }
