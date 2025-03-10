@@ -5,3 +5,5 @@
 3. white-space: nowrap;
 
 4. transition
+
+5. practical example of using after and before pseudo elements on a button animation
