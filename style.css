@@ -55,6 +55,29 @@ nav h1 {
   font-family: MonumentExtended-Regular;
   font-size: 35px;
   letter-spacing: -2.5px;
+  position: relative;
+}
+
+nav h1::after {
+  content: "©";
+  font-family: Gilroy-Light;
+  font-weight: 600;
+  font-size: 1.5vw;
+  position: absolute;
+  top: 21%;
+  right: 15%;
+}
+
+nav h1::before {
+  content: "model management";
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  top: 61%;
+  right: 21%;
+  color: #4d4d4d;
 }
 
 nav h2 {
@@ -584,7 +607,7 @@ h5 {
   color: transparent;
   margin-right: 16px; /* actually it's 20px 'cause 4px of automatic margin */
   letter-spacing: 3px;
-  animation: premier-marquee 5s infinite linear;
+  animation: premier-marquee 7s infinite linear;
 }
 
 @keyframes premier-marquee {
