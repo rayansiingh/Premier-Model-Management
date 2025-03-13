@@ -2,8 +2,15 @@
 
 2. marquee effect
 
-3. white-space: nowrap;
+3. white-space: nowrap; & display - inline block
+or you can use 
+flex wrap - no warp & and flex shrink:0; 
+for marquee animation
 
 4. transition
 
-5. practical example of using after and before pseudo elements on a button animation
+5. practical example of using after and before pseudo elements on a button animation.
+
+6. -webkit-text-stroke: 2px black;
+
+7. when using white-space:no wrap and display:inline-block there is a extra margin of "4px" between elements
