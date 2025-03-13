@@ -195,6 +195,7 @@ nav h2:nth-last-child(2) {
   border-bottom: 2.3px solid black;
   letter-spacing: 0.5vw;
   margin-right: 2vw;
+  margin-bottom: 2vh;
 }
 
 #alphabets h6 {
@@ -515,13 +516,12 @@ h5 {
 
 #updates-part4 {
   margin-top: 10vh;
-  margin-bottom: 7vh;
+  margin-bottom: 15vh;
   height: 90vh;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 5vw; */
   padding: 0 5%;
 }
 
@@ -543,7 +543,7 @@ h5 {
 
 #updates-part4 > #right-part > #image-part {
   height: 70%;
-  background:url("https://images.pexels.com/photos/31064221/pexels-photo-31064221/free-photo-of-vintage-style-portrait-with-urban-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background: url("https://images.pexels.com/photos/31064221/pexels-photo-31064221/free-photo-of-vintage-style-portrait-with-urban-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: cover;
   background-position: center;
 }
@@ -563,6 +563,39 @@ h5 {
 
 #updates-part4 > #right-part > #text-part > h5 {
   font-size: 1.2vw;
+}
+
+#premier-model-2020 {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 1vw;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+#premier-model-2020 > h1 {
+  display: inline-block;
+  font-family: MonumentExtended-Regular;
+  font-size: 3vw;
+  font-weight: 900;
+  -webkit-text-stroke: 0.1px rgb(20, 20, 20);
+  color: transparent;
+  margin-right: 16px; /* actually it's 20px 'cause 4px of automatic margin */
+  letter-spacing: 3px;
+  animation: premier-marquee 5s infinite linear;
+}
+
+@keyframes premier-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(
+      calc(-100% - 20px)
+    ); /* 20px is the margin-right of h1 */
+  }
 }
 
 #test {
