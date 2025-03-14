@@ -621,6 +621,32 @@ h5 {
   }
 }
 
+#blog {
+  margin-top: 10vh;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+}
+
+#blog > #left {
+  height: 100%;
+  width: 25%;
+  background-color: blue;
+}
+
+#blog > #middle {
+  height: 100%;
+  width: 35%;
+  background-color: green;
+}
+
+#blog > #right {
+  height: 100%;
+  width: 40%;
+  background-color: brown;
+}
+
 #test {
   height: 100vh;
   width: 100vw;
