@@ -77,7 +77,7 @@ nav h1::before {
   position: absolute;
   top: 61%;
   right: 21%;
-  color: #4d4d4d;
+  color: #171717;
 }
 
 nav h2 {
@@ -623,32 +623,176 @@ h5 {
 
 #blog {
   margin-top: 10vh;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   justify-content: space-between;
   padding: 0 5vw;
+  margin-bottom: 24vh;
 }
 
 #blog > #left {
   height: 100%;
   width: 25%;
-  background-color: blue;
+}
+
+#blog > #left > h1 {
+  font-family: MonumentExtended-Regular;
+  font-size: 2.5vw;
+  text-align: center;
 }
 
 #blog > #middle {
   height: 100%;
-  width: 35%;
-  background-color: green;
+  width: 32%;
+}
+
+#blog > #middle > #text {
+  height: 40%;
+  font-size: 1.6vw;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+#blog > #middle > #photo-model1 {
+  height: 60%;
+  background: url("https://images.unsplash.com/photo-1475431701177-8a80e7bf2c5f?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
 }
 
 #blog > #right {
   height: 100%;
+  width: 35%;
+}
+
+#blog > #right > #text {
+  height: 40%;
+  font-size: 1.6vw;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+#blog > #right > #photo-model2 {
+  height: 60%;
+  background: url("https://images.unsplash.com/photo-1630568119734-1f6df1cd1669?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  height: 40vh;
+  width: 100vw;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5vw;
+}
+
+footer > #left {
+  height: 100%;
   width: 40%;
-  background-color: brown;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+footer #left h1 {
+  height: 100%;
+  font-family: MonumentExtended-Regular;
+  font-size: 35px;
+  letter-spacing: -2.5px;
+  position: relative;
+}
+
+footer #left h1::after {
+  content: "©";
+  font-family: Gilroy-Light;
+  font-weight: 600;
+  font-size: 1.5vw;
+  position: absolute;
+  top: -2%;
+  right: -11%;
+}
+
+footer #left h1::before {
+  content: "model management";
+  font-family: Gilroy-Light;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.1px;
+  position: absolute;
+  top: 12%;
+  right: -1%;
+  color: #171717;
+}
+
+footer > #left > h2 {
+  margin-right: 5vw;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+footer > #middle {
+  height: 100%;
+  width: 20%;
+  padding-top: 3vh;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+footer > #middle > h2 {
+  text-align: center;
+  font-family: Lato;
+  font-weight: 400;
+}
+
+footer > #right {
+  height: 100%;
+  width: 40%;
+}
+
+footer > #right > #upper {
+  height: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  border-bottom: 2px solid black;
+}
+
+footer > #right > #upper > h2 {
+  font-family: Lato;
+  font-weight: 400;
+}
+
+footer > #right > #lower {
+  height: 73%;
+}
+
+footer > #right > #lower > #icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5vw;
+  margin-left: 5vw;
+  padding-top: 5vh;
+}
+
+footer > #right > #lower > #icons > i {
+  font-size: 1.5vw;
+}
+
+footer > #right > #lower > #text > #text-footer {
+  font-size: 1.1vw;
+  margin-top: 5vh;
+  margin-left: 5vw;
+  font-weight: 900;
 }
 
 #test {
-  height: 100vh;
-  width: 100vw;
-  background-color: yellow;
+  height: 0.1vh;
 }
