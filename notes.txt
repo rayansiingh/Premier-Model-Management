@@ -1,5 +1,3 @@
-todo-button cool animation using after before real life example.
-
 1. mix-blend-mode: exclusion; - changes the color of element on the basis of background.
 
 2. marquee effect
@@ -16,3 +14,5 @@ for marquee animation
 6. -webkit-text-stroke: 2px black;
 
 7. when using white-space:no wrap and display:inline-block there is a extra margin of "4px" between elements
+
+8. cool background changing effect using pseudo elements (after / before)

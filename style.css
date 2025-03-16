@@ -143,12 +143,38 @@ nav h2:nth-last-child(2) {
 
 #overlay1 h2 {
   font-size: 1.4vw;
-  font-weight: 500;
+  font-weight: 600;
   padding: 2vw 2.2vw;
   border-radius: 50%;
-  /* background-color: aqua; */
-  border: 2px solid white;
-  /* add bottom right part of border more boldness */
+  border: 3px solid white;
+  background-color: transparent;
+  position: relative;
+  z-index: 1; /* Add this to establish stacking context */
+  transition: all ease 0.3s;
+  overflow: hidden;
+}
+
+#overlay1 h2::after {
+  content: "";
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: all ease 0.2s;
+  z-index: -1; /* Make the ::after element appear behind the text */
+}
+
+#overlay1 h2:hover {
+  color: rgb(255, 157, 0);
+  border: 3px solid rgb(255, 157, 0);
+}
+
+#overlay1 h2:hover::after {
+  transform: translate(-50%, -50%) scale(5);
 }
 
 #overlay2 {
