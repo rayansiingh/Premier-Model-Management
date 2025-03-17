@@ -37,7 +37,6 @@ body::-webkit-scrollbar {
 nav {
   height: 12vh;
   width: 100%;
-  /* background-color: red; */
   margin-top: 35px;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -174,7 +173,7 @@ nav h2:nth-last-child(2) {
 }
 
 #overlay1 h2:hover::after {
-  transform: translate(-50%, -50%) scale(5);
+  transform: translate(-50%, -50%) scale(9);
 }
 
 #overlay2 {
