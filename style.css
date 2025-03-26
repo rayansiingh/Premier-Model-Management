@@ -99,6 +99,10 @@ nav h2:nth-last-child(2) {
   width: 29%;
 }
 
+nav h3 {
+  display: none;
+}
+
 #centre {
   height: 85%;
   width: 100%;
@@ -820,4 +824,38 @@ footer > #right > #lower > #text > #text-footer {
 
 #test {
   height: 0.1vh;
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    height: 9vh;
+    margin-top: 25px;
+    padding: 0 5vw;
+  }
+
+  nav h1 {
+    width: 35%;
+    justify-content: flex-start;
+    font-size: 25px;
+  }
+
+  nav h1::after {
+    display: none;
+  }
+
+  nav h1::before {
+    display: none;
+  }
+
+  nav h2 {
+    display: none;
+  }
+
+  nav h3 {
+    display: block;
+  }
 }
